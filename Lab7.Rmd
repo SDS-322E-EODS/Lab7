@@ -76,14 +76,14 @@ Then let's do some cleaning:
 Save the resulting dataset as an object called `book`.
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
 How many chapters were contained in the `book` you chose?
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
@@ -96,7 +96,7 @@ How many chapters were contained in the `book` you chose?
 Next, we will split each line into words (this is sometimes called "tokenization"). One very convenient function to do this is `unnest_tokens(word, text)` (we do not need to specify the token as the default token is `words`). What are the 10 most common words in the book you chose? Do they reveal any pattern?
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
@@ -117,14 +117,14 @@ SMARTstops <- stop_words |>
 Split each line in `book` into words with `unnest_tokens()` (like you did in Question 2) and use one of the joining function to get rid of stop words. Call the resulting dataset `words_books`.
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
 Find the 10 most common words in `words_book` and display those in a word cloud. Do you notice any pattern in those words?
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
@@ -156,7 +156,7 @@ Follow those steps to keep track of the sentiments as the story goes:
 How do the sentiments evolve as the story goes?
 
 ```{r}
-# your code goes below (make sure to edit comment)
+# your code goes below (make sure to edit this comment)
 
 ```
 
